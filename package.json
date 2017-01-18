@@ -1,0 +1,33 @@
+{
+  "name": "new-port-cli",
+  "main": "bin/port.js",
+  "repository": {
+    "url": "https://github.com/tobihrbr/new-port-cli.git",
+    "type": "git"
+  },
+  "bin": {
+    "port": "./bin/port.js",
+    "new-port": "./bin/port.js"
+  },
+  "version": "1.0.0",
+  "description": "Get a free port using the command line",
+  "keywords": [
+    "get",
+    "free",
+    "port",
+    "cmd",
+    "bash",
+    "shell",
+    "command",
+    "line",
+    "prompt"
+  ],
+  "license": "MIT",
+  "author": "tobihrbr",
+  "scripts": {
+    "start": "node bin/port.js"
+  },
+  "dependencies": {
+    "new-port": "^1.0.0"
+  }
+}
