@@ -7,7 +7,8 @@
   },
   "bin": {
     "port": "./bin/port.js",
-    "new-port": "./bin/port.js"
+    "new-port": "./bin/port.js",
+    "newport": "./bin/port.js"
   },
   "version": "1.0.0",
   "description": "Get a free port using the command line",
